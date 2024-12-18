@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 def get_database():
-    CONNECTION_STRING = "mongodb+srv://zilean12:SJOm5hmafLYXwqjI@cluster0.cszl8.mongodb.net/"
+    CONNECTION_STRING = ""
     client = MongoClient(CONNECTION_STRING)
     return client['Dashboard']
 
